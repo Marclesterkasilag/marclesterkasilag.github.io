@@ -1,0 +1,19 @@
+# Layout settings
+
+animation: "bounceOut"
+
+# Images
+
+logo: "logo.png"
+hero: "hero.jpg" 
+avatar: "sketch_face.jpg"
+avatar2: "helmet-face.jpg" 
+
+# Colors
+
+accent: "#4fcaf7" #"#01aef0"
+
+textColor: "#666"
+headlineColor: "#333"
+bgcolor: "#e5eaee"
+documentBackgroundColor: "#fff"
