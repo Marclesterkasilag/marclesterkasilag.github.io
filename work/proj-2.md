@@ -2,17 +2,17 @@
 title: "Some of my Edited Image"
 ---
 
-![raw image used for editing](assets/img/work/proj-2/img1.jpg "Original image before editing")
+![Original Image Before Editing](assets/img/work/proj-2/img1.jpg)
 Original Raw Image.
 
-![painted look after editing](assets/img/work/proj-2/img2.jpg "Got a Painted-Like Effect From editing the raw image")
+![Got a Painted-Like Effect From editing the raw image](assets/img/work/proj-2/img2.jpg)
 Painting Effect 1.
 
-![higher painted effect look output of image edit](assets/img/work/proj-2/img3.jpg "Higher Hue Painted Look Outcome From Editing")
+![Higher Hue Painted Look Outcome From Editing](assets/img/work/proj-2/img3.jpg)
 Painting Effect 2.
 
-![edited to become hand-drawn like effect](assets/img/work/proj-2/img4.jpg "Sketch Effect After Editng")
+![Sketch Effect After Editng](assets/img/work/proj-2/img4.jpg)
 Sketch Effect 1.
 
-![sketchy look](assets/img/work/proj-2/img5.jpg "Another Mode of Hand-drawn of my Image Editing")
+![Another Mode of Hand-drawn of my Image Editing](assets/img/work/proj-2/img5.jpg)
 Sketch Effect 2.
