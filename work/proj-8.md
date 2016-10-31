@@ -2,4 +2,6 @@
 title: "My Infographic Resume"
 ---
 
-![Mock-up of My Infographic Resume](assets/img/work/proj-8/CVkasilag.jpg)
+Yep, this is my resume.
+
+![Marc Lester Kasilag Infographic Resume](assets/img/work/proj-8/CVkasilag.jpg 'Resume of Marc Lester Kasilag')

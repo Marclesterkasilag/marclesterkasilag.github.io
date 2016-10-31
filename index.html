@@ -12,6 +12,16 @@
   <meta rel="author" href="{{ site.data.settings.seo.rel-author }}">
   <meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}">
 
+  <!-- STANDARD TWITTER CARD -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@busoginmoko">
+  <meta name="twitter:title" content="{{ site.data.settings.title }}">
+  <meta name="twitter:description" content="{{ site.data.settings.seo.description }}">
+  <meta name="twitter:creator" content="@busoginmoko">
+
+  <!-- Twitter Summary card images must be at least 120x120px -->
+  <meta name="twitter:image" content="http://marclesterkasilag.github.io/assets/img/sketch_face.jpg">
+
   <!-- OGP -->
   <meta property="og:title" content="{{ site.data.settings.title }}" />
   <meta property="og:type" content="website" />
@@ -31,23 +41,21 @@
   {% include analytics.html %}
 </head>
 <body>
-{% include return.html %}
+  {% include header.html %}
 
-{% include header.html %}
+  {% include return.html %}
 
-{% include about.html %}
+  {% include about.html %}
 
-{% include work.html %}
+  {% include work.html %}
 
-{% include clients.html %}
+  {% include clients.html %}
 
-{% include contact.html %}
+  {% include contact.html %}
 
-{% include footer.html %}
+  {% include footer.html %}
 
-
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="assets/js/functions.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="assets/js/functions.js"></script>
 </body>
 </html>

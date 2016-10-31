@@ -9,9 +9,9 @@ email: kasilag.ml@gmail.com
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
-- {name: About, url: '#marc-profile'}
+- {name: About Marc, url: '#marc-profile'}
 - {name: Portfolio, url: '#marc-portfolio'}
-- {name: Reference Portfolio, url: '#reference-portfolio'}
+- {name: Reference, url: '#reference-portfolio'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
@@ -20,9 +20,9 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: '**MARC LESTER KASILAG**. Web Designer | Gamer | Always Hungry. A showcase of Marc Lester Kasilag work.'
-  rel-author: 'https://plus.google.com/u/0/100631166821397648910/'
-  rel-publisher: 'https://plus.google.com/u/0/100631166821397648910/'
+  description: 'MARC LESTER KASILAG. Web Designer | Gamer | Always Hungry. A showcase of Marc Lester Kasilag work.'
+  rel-author: 'https://plus.google.com/u/0/100631166821397648910'
+  rel-publisher: 'https://plus.google.com/u/0/100631166821397648910'
 
 #-------------------------------
 # Google Analytics Section
@@ -63,14 +63,14 @@ skills:
 # Work Section
 
 projects:
-- {name: Web Banner Concept, folder: 'proj-1', file: 'work/proj-1.html', alt: 'works done in feati a concept web banner'}
-- {name: Image Retouching, folder: 'proj-2', file: 'work/proj-2.html', alt: 'random image editing using photoshop'}
-- {name: Modern & Flat Icons, folder: 'proj-3', file: 'work/proj-3.html', alt: 'collection of modern flat icon I use for website project'}
-- {name: Web & Print Ads, folder: 'proj-4', file: 'work/proj-4.html', alt: 'this is a collection of my web banner creation for feati'}
-- {name: About & Contact Page, folder: 'proj-5', file: 'work/proj-5.html', alt: 'about page and contact page I did for a client'}
-- {name: Tri-fold Brochure Mock Up, folder: 'proj-6', file: 'work/proj-6.html', alt: 'a trifold mock up design I made'}
-- {name: Student Handbook Cover Concept, folder: 'proj-7', file: 'work/proj-7.html', alt: 'a handbook concept design for a company I worked at'}
-- {name: Infographic Resume, folder: 'proj-8', file: 'work/proj-8.html', alt: 'one of my infographic resume created from adobe illustrator'}
+- {name: Web Banner Concept, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Image Retouching, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Modern & Flat Icons, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Web & Print Ads, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: About & Contact Page, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Tri-fold Brochure Mock Up, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: Student Handbook Cover Concept, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: Infographic Resume, folder: 'proj-8', file: 'work/proj-8.html'}
 
 
 

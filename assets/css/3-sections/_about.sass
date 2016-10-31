@@ -51,7 +51,6 @@
     &.icon-mouse:hover .back
       display: block
 
-
     path
       fill: $accent
 
@@ -63,7 +62,6 @@
       +order(4)
     &.icon-mouse
       +order(5)
-
 
 @media screen and (max-width: 650px)
   .face-lockup
@@ -83,9 +81,6 @@
     [class^="icon-"]
       margin: 10px 9%
 
-
-
-
 .blurb
   max-width: 620px
   padding: 0 20px
@@ -98,7 +93,7 @@
 
 .skill-lockup
   max-width: 540px
-  margin: 100px auto
+  margin: auto
   color: #999
   +clearfix
 
@@ -119,25 +114,12 @@
       width: 20px
       box-shadow: 0 4px 2px -3px
 
-      //if you want inner border radius white
-      //&:after
-        //content: ''
-        //display: block
-        //+size(10px)
-        //background: #fff
-        //border-radius: 50%
-        //margin: 2px
-
     @for $i from 1 through 10
       &.skill-#{$i} span:nth-child(n+#{$i+1})
         @extend %skill-color
 
-
 %skill-color
   background: $bgcolor
-
-
-
 
 @media screen and (max-width: 541px)
   .skill-lockup
