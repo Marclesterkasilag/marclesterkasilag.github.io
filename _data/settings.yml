@@ -63,17 +63,46 @@ skills:
 # Work Section
 
 projects:
-- {name: Web Banner Concept, folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: Image Retouching, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Modern & Flat Icons, folder: 'proj-3', file: 'work/proj-3.html'}
-- {name: Web & Print Ads, folder: 'proj-4', file: 'work/proj-4.html'}
-- {name: About & Contact Page, folder: 'proj-5', file: 'work/proj-5.html'}
-- {name: Tri-fold Brochure Mock Up, folder: 'proj-6', file: 'work/proj-6.html'}
-- {name: Student Handbook Cover Concept, folder: 'proj-7', file: 'work/proj-7.html'}
-- {name: Infographic Resume, folder: 'proj-8', file: 'work/proj-8.html'}
-
-
-
+- {name: Web Banner Concept,
+  folder: 'proj-1',
+  file: 'work/proj-1.html',
+  alt: 'web banner concept thumbnail'
+}
+- {name: Image Retouching,
+  folder: 'proj-2',
+  file: 'work/proj-2.html',
+  alt: 'image retouching'
+}
+- {name: Modern & Flat Icons,
+  folder: 'proj-3',
+  file: 'work/proj-3.html',
+  alt: 'a modern and flat icons thumb picture'
+}
+- {name: Web & Print Ads,
+  folder: 'proj-4',
+  file: 'work/proj-4.html',
+  alt: 'a group of image of web and print ads'
+}
+- {name: About & Contact Page,
+  folder: 'proj-5',
+  file: 'work/proj-5.html',
+  alt: 'about and contact page thumb picture'
+}
+- {name: Tri-fold Brochure Mock Up,
+  folder: 'proj-6',
+  file: 'work/proj-6.html',
+  alt: 'a mock up thumbnail of z-trifold brochure'
+}
+- {name: Student Handbook Cover Concept,
+  folder: 'proj-7',
+  file: 'work/proj-7.html',
+  alt: 'student handbook cover thumbnail'
+}
+- {name: Infographic Resume,
+  folder: 'proj-8',
+  file: 'work/proj-8.html',
+  alt: 'a thumbnail picture of infographic resume'
+}
 
 #-------------------------------
 # Clients Section
@@ -83,7 +112,7 @@ clients:
   name: 'Mark Anthony Dosado',
   title: 'Property Administration, FEATI University.',
   quote: '<p><strong>Yea, I guess he is really good at computers,</strong> Good enough that he always pick my pictures and create memes out of it with his editing prowess.</p>',
-  logo: 'featilogo.png',
+  logo: 'featilogo.jpg',
   logo-title: 'FEATI Universtiy Logo',
   logo-alt: 'a logo of feati university to describe where he works' 
 }
