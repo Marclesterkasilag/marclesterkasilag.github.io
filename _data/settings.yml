@@ -146,7 +146,7 @@ clients:
 # Contact Section
 
 social:
-- {icon: 'twitter', link: 'http://twitter.com/busoginmoko', title: 'twitter'}
+- {icon: 'twitter', link: 'https://twitter.com/busoginmoko', title: 'twitter'}
 - {icon: 'codecademy', link: 'https://www.codecademy.com/dimabusog', title: 'codecademy'}
 - {icon: 'facebook', link: 'https://www.facebook.com/dirtylookingcat/', title: 'facebook'}
 - {icon: 'google-plus', link: 'https://plus.google.com/u/0/100631166821397648910', title: 'google +'}
