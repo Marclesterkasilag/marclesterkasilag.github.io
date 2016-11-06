@@ -11,12 +11,7 @@
   ##{$proj}:checked ~ .work-belt .work-wrap .work-container noscript #content-#{$proj}
     display: block
 
-.return
-  display: none
-
 .trigger
-  display: none
-
   &:checked ~ .work-belt
     left: -100%
 
@@ -59,6 +54,9 @@
         max-width: 100%
 
     @media screen and (max-width: 760px)
+      width: 25%
+
+    @media screen and (max-width: 500px)
       width: 50%
 
     .thumb-overlay

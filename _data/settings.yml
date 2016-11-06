@@ -65,7 +65,7 @@ skills:
 projects:
 - {name: Web Banner Concept,
   folder: 'proj-1',
-  file: 'work/proj-1.html',
+  file: '/work/proj-1.html',
   alt: 'web banner concept thumbnail'
 }
 - {name: Image Retouching,
