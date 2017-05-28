@@ -1,0 +1,11 @@
+<div class="open">
+	<span class="cls"></span>
+	<span>
+	    <ul class="nav-menu">
+				{% for item in site.data.settings.menu %}
+      		<li><a class="cls" href="{{ item.url }}">{{ item.name }}</a></li>
+      	{% endfor %}
+	    </ul>
+    </span>
+  <span class="cls"></span>
+</div>

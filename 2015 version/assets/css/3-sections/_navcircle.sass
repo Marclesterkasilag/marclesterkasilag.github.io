@@ -1,0 +1,137 @@
+.open
+	background-color: pink
+	border-radius: 50%
+	position: fixed
+	top: 50px
+	right: 50px
+	width: 50px
+	height: 50px
+	display: block
+	cursor: pointer
+	+transition(opacity 0.2s linear)
+	z-index: 1000
+
+	&:hover, &:focus
+		//opacity: 0.8
+		span:nth-child(1)
+			margin-top: 12px
+		span:nth-child(3)
+			margin-top: 38px
+
+	span
+		display: block
+		float: left
+		clear: both
+		height: 3px
+		width: 30px
+		border-radius: 40px
+		background-color: #fff
+		position: absolute
+		right: 10px
+		top: 0x
+		overflow: hidden
+		+transition(all 0.4s ease)
+
+	span:nth-child(1)
+		margin-top: 16px
+		z-index: 1009
+
+	span:nth-child(2)
+		margin-top: 25px
+
+	span:nth-child(3)
+		margin-top: 34px
+
+.nav-menu
+	+transition(all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55))
+	height: 0
+	width: 0
+	right: 0
+	top: 0
+	position: absolute
+	background-color: rgba(38, 84, 133, 0.54)
+	border-radius: 50%
+	z-index: 1018
+	overflow: hidden
+
+	li
+		display: block
+		float: right
+		clear: both
+		height: auto
+		margin-right: -160px
+		+transition(all 0.5s cubic-bezier(0.68, -0.55, 0.256, 1.55))
+
+		a
+			color: rgba(0,0,0,0.7)
+			font-size: 16px
+			@extend %small-bold
+			text-shadow: 0 1.2px 0 rgba(255, 255, 255, 0.6)
+			width: 100%
+			display: block
+			float: left
+			line-height: 40px
+
+			&:hover
+				color: rgba(0,0,0,1)
+				//border-top: white solid 5px
+				text-shadow: 0 1.2px 0 rgba(255, 255, 255, 0.6)
+
+	li:first-child
+		margin-top: 180px
+
+	li:nth-child(1)
+		+transition-delay(0.05s)
+
+	li:nth-child(2)
+		+transition-delay(0.10s)
+
+	li:nth-child(3)
+		+transition-delay(0.15s)
+
+	li:nth-child(4)
+		+transition-delay(0.20s)
+
+	li:nth-child(5)
+		+transition-delay(0.25s)
+
+.oppenned
+	&:hover
+		span:nth-child(1)
+			margin-top: 16px
+		span:nth-child(3)
+			margin-top: 34px
+
+	.nav-menu
+		opacity: 1
+		height: 450px
+		width: 450px
+
+	span:nth-child(2)
+		overflow: visible
+
+	span:nth-child(1), span:nth-child(3)
+		z-index: 1100
+		+transform(rotate(45deg))
+
+	span:nth-child(1)
+		+transform(rotate(45deg) translateY(7px) translateX(8px))
+
+	span:nth-child(2)
+		height: 450px
+		width: 450px
+		right: -160px
+		top: -160px
+		border-radius: 50%
+		background-color: rgba(38,84,133,1)
+
+	span:nth-child(3)
+		+transform(rotate(-45deg) translateY(-4px) translateX(6px))
+
+	li
+		margin-right: 168px
+
+@media (max-width: 640px)
+	.open
+		top: 20px
+		right: 20px

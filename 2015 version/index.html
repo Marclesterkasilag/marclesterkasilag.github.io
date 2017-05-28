@@ -1,0 +1,57 @@
+---
+---
+
+<!DOCTYPE html>
+<html class="" lang="en">
+<head prefix="og: https://ogp.me/ns#">
+  <!-- STANDARDS ! -->
+  <meta charset="UTF-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.data.settings.seo.description }}">
+  <meta rel="author" href="{{ site.data.settings.seo.rel-author }}">
+  <meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}">
+  <!-- STANDARD TWITTER CARD -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@busoginmoko">
+  <meta name="twitter:title" content="{{ site.data.settings.title }}">
+  <meta name="twitter:description" content="{{ site.data.settings.seo.description }}">
+  <meta name="twitter:creator" content="@busoginmoko">
+  <!-- Twitter Summary card images must be at least 120x120px -->
+  <meta name="twitter:image" content="{{ site.github.url }}/assets/img/sketch_face.jpg">
+  <!-- OGP -->
+  <meta property="og:title" content="{{ site.data.settings.title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://marclesterkasilag.github.io/" />
+  <meta property="og:image" content="{{ site.github.url }}/assets/img/work/proj-8/thumb.jpg" />
+  <!-- FOR GOOGLE ! -->
+  <meta itemprop="name" content="{{ site.data.settings.site-name }}">
+  <meta itemprop="description" content="{{ site.data.settings.seo.description }}">
+  <meta itemprop="image" content="{{ site.github.url }}/assets/img/work/proj-8/thumb.jpg">
+
+  <title>{{ site.data.settings.title }}</title>
+
+  <!--[if lt IE 9]><script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  {% include criticalcss.html %}
+
+  {% include analytics.html %}
+</head>
+<body>
+  {% include header.html %}
+
+  {% include navcircle.html %}
+
+  {% include about.html %}
+
+  {% include work.html %}
+
+  {% include clients.html %}
+
+  {% include contact.html %}
+
+  {% include footer.html %}
+  <link rel="stylesheet" href="{{ site.github.url }}/assets/css/all.css">
+  <script src="{{ site.github.url }}/assets/js/jquery-3.1.1.min.js"></script>
+  <script src="{{ site.github.url }}/assets/js/functions.js"></script>
+</body>
+</html>

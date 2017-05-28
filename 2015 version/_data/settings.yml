@@ -1,0 +1,158 @@
+#-------------------------------
+# General Site Settings
+
+title: Marc's Portfolio
+site-name: Marc Lester Kasilag
+description: Web Designer | Gamer | Always Hungry.
+email: kasilag.ml@gmail.com
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: Home, url: '#'}
+- {name: About Marc, url: '#marc-profile'}
+- {name: Portfolio, url: '#marc-portfolio'}
+- {name: Reference, url: '#reference-portfolio'}
+- {name: Contact, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'MARC LESTER KASILAG. Web Designer | Gamer | Always Hungry. A showcase of Marc Lester Kasilag work.'
+  rel-author: 'https://plus.google.com/u/0/100631166821397648910'
+  rel-publisher: 'https://plus.google.com/u/0/100631166821397648910'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics-ua: UA-86319965-1
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  He **makes digital solution** for others.
+  Most of it are digital interfaces like prints and web design.
+  But also knowledgeable in maintainance, managing and updating computer hardware,
+  software and networks. He is a tech-savvy, Gamer and Dimabusog.
+
+
+
+skills:
+- {name: Work Ethics, value: '10'}
+- {name: Organization, value: '7'}
+- {name: Learning, value: '10'}
+- {name: Teaching, value: '9'}
+- {name: Planning, value: '7'}
+- {name: Visual Design, value: '6'}
+- {name: UX Design, value: '8'}
+- {name: Eye on Detail, value: '10'}
+- {name: Customer First, value: '10'}
+- {name: Management, value: '10'}
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: Web Banner Concept,
+  folder: 'proj-1',
+  file: 'work/proj-1.html',
+
+}
+- {name: Image Retouching,
+  folder: 'proj-2',
+  file: 'work/proj-2.html',
+  alt: 'image retouching'
+}
+- {name: Modern & Flat Icons,
+  folder: 'proj-3',
+  file: 'work/proj-3.html',
+
+}
+- {name: Web & Print Ads,
+  folder: 'proj-4',
+  file: 'work/proj-4.html',
+
+}
+- {name: About & Contact Page,
+  folder: 'proj-5',
+  file: 'work/proj-5.html',
+
+}
+- {name: Tri-fold Brochure Mock Up,
+  folder: 'proj-6',
+  file: 'work/proj-6.html',
+
+}
+- {name: Student Handbook Cover Concept,
+  folder: 'proj-7',
+  file: 'work/proj-7.html',
+
+}
+- {name: Infographic Resume,
+  folder: 'proj-8',
+  file: 'work/proj-8.html',
+
+}
+
+#-------------------------------
+# Clients Section
+
+clients:
+- {avatar: 'face-toto.jpg',
+  name: 'Mark Anthony Dosado',
+  title: 'Property Administration, FEATI University.',
+  quote: '<p><strong>Yea, I guess he is really good at computers,</strong> Good enough that he always pick my pictures and create memes out of it with his editing prowess.</p>',
+  logo: 'featilogo.jpg',
+  logo-title: 'FEATI Universtiy Logo',
+  logo-alt: 'a logo of feati university to describe where he works'
+}
+- {avatar: 'face-james.jpg',
+  name: 'James Corsino',
+  title: 'Technical Support, Honda Cars Kalookan Inc.',
+  quote: '<p><strong>A good team-mate back then in IT.Resources Corp.</strong> In the good old times, we used to talk about video games, anime and how to flirt girls.</p>',
+  logo: 'hondalogo.jpeg',
+  logo-title: 'Honda Cars Kalookan Inc. Logo',
+  logo-alt: 'logo of honda cars company'
+}
+- {avatar: 'face-jaw.jpg',
+  name: 'Jawharal Manding',
+  title: 'Graphic Artist, IT Resources Corporation.',
+  quote: '<p><strong>He is my body man in all things back then</strong> like in making ugly things become beautiful. One thing I envy about him is his huge amount of appetite.</p>',
+  logo: 'itrclogo.jpg',
+  logo-title: 'ITRC Logo',
+  logo-alt: 'ITRC logo where jaw works'
+}
+- {avatar: 'face-carlo.jpg',
+  name: 'John Carlo Roxas',
+  title: 'Tech Wrangler, Nexlogic Telecommunication Network Inc.',
+  quote: '<p><strong>He became an On-site Network Support Engineer</strong> In one of my previous JV project, WIFI Campus Project, in a government agency.</p>',
+  logo: 'nexlogiclogo.png',
+  logo-title: 'Nexlogic Logo',
+  logo-alt: 'a logo of nexlogic telecommunication network inc'
+}
+
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'twitter', link: 'https://twitter.com/busoginmoko', title: 'twitter'}
+- {icon: 'codecademy', link: 'https://www.codecademy.com/dimabusog', title: 'codecademy'}
+- {icon: 'facebook', link: 'https://www.facebook.com/dirtylookingcat/', title: 'facebook'}
+- {icon: 'google-plus', link: 'https://plus.google.com/u/0/100631166821397648910', title: 'google +'}
+- {icon: 'pinterest', link: 'https://www.pinterest.com/kasilagml/', title: 'pinterest'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/kasilagml/', title: 'linkedin'}
+
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
