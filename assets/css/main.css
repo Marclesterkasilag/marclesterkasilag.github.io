@@ -4170,15 +4170,18 @@ nav.controls .menu:hover ul {
 
 .section-work .main-panel .title {
   width: 350px;
-  top: 100px;
+  top: -70px;
   margin-left: 120px;
   z-index: 4;
 }
 
 .section-work .main-panel .timeline-small {
   min-width: 350px;
+  overflow: hidden;
+  box-shadow: 0 0 40px #a0a0a0;
+  font-family: 'Open Sans', sans-serif;
   position: absolute;
-  background: #FFFEE6;
+  background: white;
   padding: 0;
   margin-left: -220px;
   top: -48px;
@@ -4186,7 +4189,7 @@ nav.controls .menu:hover ul {
 
 .section-work .main-panel .cta-wrap {
   position: relative;
-  top: 0px;
+  top: 386px;
   left: 140px;
 }
 
@@ -4209,6 +4212,7 @@ nav.controls .menu:hover ul {
 }
 
 .section-work .main-panel .cta-wrap a.cta-wrap {
+  top: 0;
   text-decoration: none;
 }
 
@@ -4242,12 +4246,10 @@ nav.controls .menu:hover ul {
 }
 
 .section-codes .main-panel .note-samples {
-  width: 400px;
   margin-top: -75px;
   margin-left: 50px;
   position: absolute;
   background: #FFFEE6;
-  padding: 10px;
   font-size: 62.5%;
   box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.1), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
   top: 55px;
@@ -4530,14 +4532,6 @@ nav.controls .menu:hover ul {
   background-image: url("../img/work/welding-900x900.jpg");
 }
 
-.timeline-small {
-  max-width: 350px;
-  max-height: 630px;
-  overflow: hidden;
-  box-shadow: 0 0 40px #a0a0a0;
-  font-family: 'Open Sans', sans-serif;
-}
-
 .header {
   background: url(../img/hero.jpg);
   background-size: cover;
@@ -4595,10 +4589,10 @@ nav.controls .menu:hover ul {
   box-sizing: border-box;
   border-radius: 50%;
   background: #fff;
-  z-index: 1;
+  z-index: 2;
   margin-right: 16px;
   margin-right: 1rem;
-  margin-top: 7%;
+  margin-top: 6%;
 }
 
 .timeline-small-body .bullet.pink {
@@ -5010,6 +5004,11 @@ html.layout-timeline .section-timeline #timeline .demo-card--step6 .head:after {
   .section-codes .main-panel .cta-wrap{
     margin-top: 800px;
   }
+  .section-codes .main-panel .note-samples{
+    position: relative !important;
+    top: 476px;
+    margin-top: 0px;
+  }
 }
 
 @media (max-width: 599px){
@@ -5218,6 +5217,59 @@ html.layout-timeline .section-timeline #timeline .demo-card--step6 .head:after {
   }
 }
 
+@media (max-width: 425px){
+  .section-craft .main-panel{
+    margin-top: 0 !important;
+  }
+  .section-craft .main-panel .blurb{
+    margin-left: -90px;
+    margin-top: 40px;
+  }
+  .section-work .main-panel{
+    margin-bottom: 580px;
+    left: -21px;
+    margin-top: -100px;
+    width: 113%;
+  }
+  .section-work .main-panel .cta-wrap a .offsite-arrow{
+    display: none;
+  }
+  .section-codes .main-panel{
+    margin-bottom: 563px !important;
+  }
+  .section-codes .main-panel .blurb{
+    top: 112px;
+    width: 200px;
+  }
+  .section-codes .main-panel .cta-wrap{
+    margin-top: 676px !important;
+    margin-left: -19px !important;
+  }
+  .section-codes .main-panel .note-samples{
+    margin-left: -20px;
+    width: 290px;
+    top: 355px;
+    margin-top: -100px !important;
+  }
+  .timeline-small-body ul{
+    padding: 0.5em 0 0 1.5em;
+  }
+  .timeline-small-body .bullet{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-right: 0.25rem;
+    margin-top: 9%;
+  }
+  .timeline-small-body .date{
+    width: 26%;
+    padding-right: 0.5rem;
+  }
+  .timeline-small-body h3{
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+}
+
 @media (max-width: 1090px){
   .section-craft .main-panel .section-number{
     right: -161px;
@@ -5234,14 +5286,11 @@ html.layout-timeline .section-timeline #timeline .demo-card--step6 .head:after {
   .section-craft .main-panel .title{
     width: 240px;
   }
-  .section-craft .main-panel .blurb{
-    margin-top: 40px;
-  }
 }
 
 @media (max-width: 450px){
   .section-craft .main-panel .cta-wrap{
-    margin-left: -20px;
+    margin-left: -55px;
   }
   .section-craft .main-panel .cta-wrap .offsite-arrow{
     display: none;
@@ -5255,7 +5304,6 @@ html.layout-timeline .section-timeline #timeline .demo-card--step6 .head:after {
   }
   .section-work .main-panel{
     margin-left: 140px;
-    height: auto;
   }
   .section-work .main-panel .section-number{
     display: none;
@@ -5286,10 +5334,8 @@ html.layout-timeline .section-timeline #timeline .demo-card--step6 .head:after {
     top: 246px;
   }
   .section-codes .main-panel .note-samples{
-    top: 160px;
-    margin-left: 20px;
-    min-width: 400px;
-    position: relative;
+    position: absolute;
+    margin-top: 120px;
   }
   .section-connect .main-panel{
     margin-left: 20%;
@@ -5306,22 +5352,14 @@ html.layout-timeline .section-timeline #timeline .demo-card--step6 .head:after {
   .section-craft .main-panel .craft-player{
     right: 10px;
     width: 86vw;
-    height: 44vh;
+    height: 41vh;
   }
   .section-craft .main-panel .craft-player .owl-theme.owl-dots{
     display: none !important;
   }
 }
 
-@media (max-width: 816px) and (max-width: 520px){
-  .section-craft .main-panel .craft-player{
-    width: 460px;
-    height: 267px;
-    margin-top: -198px;
-  }
-}
-
-@media (max-width: 816px) and (max-width: 520px) and (max-width: 420px){
+@media (max-width: 816px) and (max-width: 420px){
   .section-craft .main-panel .craft-player{
     width: 260px;
     height: 167px;
@@ -5335,32 +5373,7 @@ html.layout-timeline .section-timeline #timeline .demo-card--step6 .head:after {
   }
   .section-work .main-panel .cta-wrap{
     left: 0px;
-  }
-}
-
-@media (max-width: 420px){
-  .section-work .main-panel{
-    left: -21px;
-    margin-top: -125px;
-  }
-  .section-work .main-panel .cta-wrap a .offsite-arrow{
-    display: none;
-  }
-  .section-codes .main-panel{
-    margin-bottom: 455px !important;
-  }
-  .section-codes .main-panel .blurb{
-    top: 95px;
-    width: 280px;
-  }
-  .section-codes .main-panel .cta-wrap{
-    margin: 30px;
-  }
-  .section-codes .main-panel .note-samples{
-    display: none;
-  }
-  .section-codes .main-panel .note-samples a .offsite-arrow{
-    display: none;
+    top: 0px;
   }
 }
 
@@ -5379,10 +5392,7 @@ html.layout-timeline .section-timeline #timeline .demo-card--step6 .head:after {
     margin-left: auto;
     margin-right: 80px;
     height: auto;
-    margin-bottom: 650px;
-  }
-  .section-codes .main-panel .note-samples{
-    top: 476px;
+    margin-bottom: 710px;
   }
 }
 
@@ -5399,9 +5409,18 @@ html.layout-timeline .section-timeline #timeline .demo-card--step6 .head:after {
   }
 }
 
+@media (max-width: 420px){
+  .section-work .main-panel .timeline-small{
+    min-width: 290px;
+  }
+  .section-codes .main-panel .note-samples a .offsite-arrow{
+    display: none;
+  }
+}
+
 @media (max-width: 890px) and (max-width: 580px){
   .section-codes .main-panel .blurb{
-    margin-left: 350px;
+    margin-left: 339px;
   }
 }
 
