@@ -4786,7 +4786,7 @@ html.layout-timeline .section-timeline #timeline {
 
 html.layout-timeline .section-timeline #timeline h1 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 200;
   margin-bottom: 20px;
 }
@@ -4951,7 +4951,7 @@ html.layout-timeline .section-timeline #timeline .demo-card--step6 .head:after {
 
 @media (max-width: 400px){
   html.layout-timeline .section-timeline #timeline h1
-    font-size: 2em;
+    font-size: 3em;
   }
 
 @media (max-width: 480px){
