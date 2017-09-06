@@ -3997,8 +3997,7 @@ nav.controls .menu:hover ul {
   width: 600px;
   width: 37.5rem;
   background-color: white;
-  border-top: 20px solid darkslategrey;
-  border-top: 1.25rem solid darkslategrey;
+  border-top: 1.25rem solid goldenrod;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4018,8 +4017,7 @@ nav.controls .menu:hover ul {
 
 .section-stats .main-panel .skill-holder .skill-cat {
   color: black;
-  border-bottom: 5px solid darkslategrey;
-  border-bottom: 0.3125rem solid darkslategrey;
+  border-bottom: 0.3125rem solid goldenrod;
   margin-bottom: 15px;
   margin-bottom: 0.9375rem;
   font-size: 22px;
@@ -4034,7 +4032,7 @@ nav.controls .menu:hover ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: #494949;
+  color: #605E5E;
 }
 
 .section-stats .main-panel .skill-holder .skill-lockup .skill-unit {
@@ -4054,7 +4052,7 @@ nav.controls .menu:hover ul {
   height: 0.75rem;
   width: 12px;
   width: 0.75rem;
-  background-color: gray;
+  background-color: goldenrod;
   margin-right: 2px;
   margin-right: 0.125rem;
   width: 14px;
@@ -4063,7 +4061,7 @@ nav.controls .menu:hover ul {
 }
 
 .section-stats .main-panel .skill-holder .skill-lockup .skill-icons.skill-1 span:nth-child(n+2), .section-stats .main-panel .skill-holder .skill-lockup .skill-icons.skill-2 span:nth-child(n+3), .section-stats .main-panel .skill-holder .skill-lockup .skill-icons.skill-3 span:nth-child(n+4), .section-stats .main-panel .skill-holder .skill-lockup .skill-icons.skill-4 span:nth-child(n+5), .section-stats .main-panel .skill-holder .skill-lockup .skill-icons.skill-5 span:nth-child(n+6), .section-stats .main-panel .skill-holder .skill-lockup .skill-icons.skill-6 span:nth-child(n+7), .section-stats .main-panel .skill-holder .skill-lockup .skill-icons.skill-7 span:nth-child(n+8), .section-stats .main-panel .skill-holder .skill-lockup .skill-icons.skill-8 span:nth-child(n+9), .section-stats .main-panel .skill-holder .skill-lockup .skill-icons.skill-9 span:nth-child(n+10), .section-stats .main-panel .skill-holder .skill-lockup .skill-icons.skill-10 span:nth-child(n+11) {
-  background: #494949;
+  background: saddlebrown;
 }
 
 .owl-theme .owl-nav.disabled + .owl-dots {
@@ -4100,7 +4098,7 @@ nav.controls .menu:hover ul {
 }
 
 .section-craft .main-panel .cta-wrap {
-  border: springgreen 5px solid;
+  border: goldenrod 5px solid;
   top: 460px;
   left: 100%;
   margin-left: -342px;
@@ -4126,7 +4124,7 @@ nav.controls .menu:hover ul {
   left: 3.5%;
   height: 94%;
   width: 86%;
-  background-color: darkslategray;
+  background-color: dodgerblue;
   border-radius: 2vw 2vw 0 0;
   padding: 3.5% 3.5% 3.8% 3.5%;
 }
@@ -4134,11 +4132,11 @@ nav.controls .menu:hover ul {
 .section-craft .main-panel .craft-player .laptop .laptop-screen .laptop-content {
   width: 100%;
   height: 100%;
-  background-color: #37474F;
+  background-color: #081725;
 }
 
 .section-craft .main-panel .craft-player .laptop .laptop-base {
-  background-color: #010101;
+  background-color: #0f2338;
   height: 6%;
   border-radius: 0 0 1vw 1vw;
   box-shadow: 0px 70px 80px -40px rgba(0, 0, 0, 0.4), 0px 5px 20px rgba(0, 0, 0, 0.5);
@@ -4194,7 +4192,7 @@ nav.controls .menu:hover ul {
 }
 
 .section-work .main-panel .cta-wrap .cta {
-  border: 5px deeppink solid;
+  border: 5px dodgerblue solid;
   padding: 17px;
 }
 
@@ -4542,7 +4540,7 @@ nav.controls .menu:hover ul {
 .color-overlay {
   padding: 3em 2em;
   box-sizing: border-box;
-  background: rgba(0, 128, 128, 0.5);
+  background: rgba(255, 20, 147, 0.44);
 }
 
 .header-name {
@@ -5206,7 +5204,7 @@ html.layout-timeline .section-timeline #timeline .demo-card--step6 .head:after {
     margin-top: auto;
   }
   .section-craft .main-panel .cta-wrap .cta{
-    border: 5px springgreen solid;
+    border: 5px goldenrod solid;
     padding: 17px;
   }
   .section-craft .main-panel .craft-player{
