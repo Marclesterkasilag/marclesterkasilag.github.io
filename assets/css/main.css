@@ -4419,7 +4419,7 @@ nav.controls .menu:hover ul {
 }
 
 .grid-item:nth-child(11) {
-  background-image: url("../img/work/featiwallpaper-900x900.jpg");
+  background-image: url("../img/work/businessprofile_(Bootstrap).jpg");
 }
 
 .grid-item:nth-child(12) {
@@ -4439,7 +4439,7 @@ nav.controls .menu:hover ul {
 }
 
 .grid-item:nth-child(16) {
-  background-image: url("../img/work/aeroreviewads-900x900.jpg");
+  background-image: url("../img/work/Landing_Page_(Bootstrap+Animate).png");
 }
 
 .grid-item:nth-child(17) {
@@ -4455,11 +4455,11 @@ nav.controls .menu:hover ul {
 }
 
 .grid-item:nth-child(20) {
-  background-image: url("../img/work/bridgepointright-900x900.jpg");
+  background-image: url("../img/work/Pricing_(Bootstrap).png");
 }
 
 .grid-item:nth-child(21) {
-  background-image: url("../img/work/bridgepointleft-900x900.jpg");
+  background-image: url("../img/work/businessprofile_(Bootstrap).jpg");
 }
 
 .grid-item:nth-child(22) {
@@ -4467,11 +4467,11 @@ nav.controls .menu:hover ul {
 }
 
 .grid-item:nth-child(23) {
-  background-image: url("../img/work/fgt2-900x900.jpg");
+  background-image: url("../img/work/Underconstruction_404_Page_(Bootstrap).jpg");
 }
 
 .grid-item:nth-child(24) {
-  background-image: url("../img/work/fgt1-900x900.jpg");
+  background-image: url("../img/work/BlackBird_HOME_(Parallax).png");
 }
 
 .grid-item:nth-child(25) {
@@ -4479,11 +4479,11 @@ nav.controls .menu:hover ul {
 }
 
 .grid-item:nth-child(26) {
-  background-image: url("../img/work/flyer1full-900x900.jpg");
+  background-image: url("../img/work/Old_Portfolio_HOME.png");
 }
 
 .grid-item:nth-child(27) {
-  background-image: url("../img/work/flyer2full-900x900.jpg");
+  background-image: url("../img/work/Looplap_HOME_(Bootstrap4).png");
 }
 
 .grid-item:nth-child(28) {
@@ -4491,11 +4491,11 @@ nav.controls .menu:hover ul {
 }
 
 .grid-item:nth-child(29) {
-  background-image: url("../img/work/founders-day-900x900.jpg");
+  background-image: url("../img/work/AppTheme_HOME_(Flexbox).png");
 }
 
 .grid-item:nth-child(30) {
-  background-image: url("../img/work/freeflaticonset-900x900.jpg");
+  background-image: url("../img/work/MovieTheme_SINGLE_PAGE_(HTML+CSS).png");
 }
 
 .grid-item:nth-child(31) {
@@ -4503,11 +4503,11 @@ nav.controls .menu:hover ul {
 }
 
 .grid-item:nth-child(32) {
-  background-image: url("../img/work/aeroflyerback-900x600.jpg");
+  background-image: url("../img/work/b2bpricenow.com_RESPONSIVE_(Desktop View).png");
 }
 
 .grid-item:nth-child(33) {
-  background-image: url("../img/work/solidworksflyer1-900x900.jpg");
+  background-image: url("../img/work/epi_about.png");
 }
 
 .grid-item:nth-child(34) {
@@ -4528,6 +4528,38 @@ nav.controls .menu:hover ul {
 
 .grid-item:nth-child(38) {
   background-image: url("../img/work/welding-900x900.jpg");
+}
+
+.grid-item:nth-child(39) {
+  background-image: url("../img/work/AppTheme_ABOUT_(Flexbox).png");
+}
+
+.grid-item:nth-child(40) {
+  background-image: url("../img/work/AppTheme_SERVICES_(Flexbox).png");
+}
+
+.grid-item:nth-child(41) {
+  background-image: url("../img/work/AppTheme_Contact_(Flexbox).png");
+}
+
+.grid-item:nth-child(42) {
+  background-image: url("../img/work/epi_contact.png");
+}
+
+.grid-item:nth-child(43) {
+  background-image: url("../img/work/epi_home.png");
+}
+
+.grid-item:nth-child(44) {
+  background-image: url("../img/work/misolvencia_home.png");
+}
+
+.grid-item:nth-child(45) {
+  background-image: url("../img/work/kore_eng_home.jpg");
+}
+
+.grid-item:nth-child(46) {
+  background-image: url("../img/work/misolvencia_home.png");
 }
 
 .header {
